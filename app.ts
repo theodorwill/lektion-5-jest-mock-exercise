@@ -2,7 +2,6 @@ import express, { json } from 'express';
 import { getWeatherData } from './weather-data';
 import mongoose from 'mongoose';
 
-
 export const makeApp = ({ createExercise, getExerciseById, getAllExercises}: any) => {
     const app = express();
 
